@@ -83,7 +83,7 @@ header{
 .navigation li{
 	flex-grow: 1;
 	line-height: 55px;
-	background-color: #ff8261;
+	background-color: var(--buttons-color);
 	transition: background-color 1s ease-out;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -173,7 +173,7 @@ header{
 	font-size: 14px;
 	font-family: 'OpenSans-Bold';
 	text-transform: uppercase;
-	background-color: #ff8261;
+	background-color: var(--buttons-color);
 	cursor: pointer;
 }
 .search-domain_form select,
