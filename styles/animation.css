@@ -1,0 +1,19 @@
+@keyframes search_domain_logo{
+	0%{
+		padding-left: 0px;
+	}
+	100%{
+		padding-left: 30px;
+	}
+}
+@keyframes benefits_logo_span{
+
+0%{
+
+    box-shadow: inset 0px 0px 0px 0px #ff8261;
+}
+100%{
+
+    box-shadow: inset 25px 0px 0px 0px #ff8261;
+}
+}

@@ -27,6 +27,7 @@ header{
 	flex-direction: column;
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 .row{
 	display: flex;
@@ -111,12 +112,14 @@ header{
 	margin: 0 auto;
 	padding-top: 25px;
 	padding-bottom: 50px;
+	animation: search_domain_wrap 1s ease-out;
 }
 /*logo*/
 .search-domain_logo,
 .benefits_logo{
-	width: 15%;
-	padding-left: 92px;
+	width: 20%;
+	padding-left: 30px;
+	animation: search_domain_logo 1s ease-out;	
 
 
 }
@@ -139,12 +142,12 @@ header{
 }
 .benefits_logo>span{
 	height: 2px;
-	width: 21px;
 	border-radius: 2px;
 	display: block;
-	background-color: #ff8261;
+    box-shadow: inset 25px 0px 0px 0px #ff8261;
 	margin-top: 71px;
 	margin-bottom: 5px;
+	animation: benefits_logo_span 0.8s ease-out;
 }
 /*logo end*/
 
@@ -153,7 +156,7 @@ header{
 /*search form*/
 .search-domain_form{
 	margin-top: 40px;
-	width: 85%
+	width: 70%
 }
 .search-domain_form input{
 	border: 1px solid #dfeef3;
@@ -186,17 +189,27 @@ header{
 	width: 33.33%;
 	display: flex;
 }
+.benefits_content{
+	padding-top: 40px;
+	padding-left: 35px;
+}
 .benefits_content img{
 	width: 55px;
 	height: 50px;
+	margin-right: 30px;
 }
 .benefits_content ul{
 	display: flex;
 	flex-direction: column;
 }
+.benefits_content ul li{
+	font-size: 13.5px;
+}
 
 .benefits_content ul li:first-child{
 	font-size: 16px;
+	text-transform: uppercase;
 	font-family: 'OpenSans-Ext-Bold';
 	color: #556b72;
+	padding-bottom: 20px;
 }
