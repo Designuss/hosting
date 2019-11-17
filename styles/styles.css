@@ -5,7 +5,8 @@
 }
 header,
 body{
-	font-family: 'arial';
+	font-family: 'OpenSans-Reg';
+	color: #9ba4b0;
 }
 a{
 	text-decoration: none;
@@ -16,13 +17,6 @@ li{
 }
 option{
 	border: none;
-}
-input{
-	border: 1px solid #dfeef3;
-	line-height: 55px;
-}
-select{
-	padding: 19px 0 19px;
 }
 header{
 	width: 80%;
@@ -41,6 +35,9 @@ header{
 }
 .logo img{
 	padding-left: 15px;
+}
+.login-menu>li{
+	color: #000;
 }
 .login-menu{
 	display: flex;
@@ -84,14 +81,75 @@ header{
 	transition: background-color 1s ease-out;
 }
 /*header end*/
+
+
 /*Content body*/
-.ent-domain_wrap{
+
+/*search-bar*/
+.search-domain_wrap{
 	background-color: #e7f4f8;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 45px;
 }
-.ent-domain_logo{
+/*logo*/
+.search-domain_logo{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	width: 15%;
+	text-align: center;
+
+
 }
+.search-domain_logo img{
+	width: 25px;
+	height: 26px; 
+    margin-right: 95px;
+    margin-bottom: 10px;
+}
+.search-domain_logo p{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.search-domain_logo span{
+	font-size: 28px;
+	font-family: 'OpenSans-Ext-Bold';
+}
+/*logo end*/
+
+
+
+/*search form*/
+.search-domain_wrap form{
+	margin-top: 30px;
+	width: 85%
+}
+.search-domain_wrap form input{
+	border: 1px solid #dfeef3;
+	line-height: 55px;
+	width: 40%;
+	padding-left: 25px;
+}
+.search-domain_wrap form select{
+	padding-left: 25px;
+	color: #9ba4b0;
+}
+.search-domain_wrap form button{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'OpenSans-Bold';
+	text-transform: uppercase;
+}
+.search-domain_wrap form select,
+.search-domain_wrap form button{
+	padding-top: 19px;
+	padding-bottom: 19px;
+	width: 18%;
+	border: none;
+}
+/*search form end*/
