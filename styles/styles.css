@@ -30,6 +30,11 @@ header{
 	padding-bottom: 100px;
 	padding-top: 70px;
 }
+.cotainers-2x{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
 .row{
 	display: flex;
 }
@@ -95,7 +100,7 @@ header{
 	color: #fff;
 }
 .navigation li:hover{
-	background-color: #52cbf8;
+	background-color: var(--hover-buttons-color);
 	transition: background-color 1s ease-out;
 }
 /*header end*/
@@ -128,6 +133,12 @@ header{
 	height: 26px; 
     margin-right: 95px;
     margin-bottom: 10px;
+}
+.our_logo{
+	width: 50%;
+	padding-left: 30px;
+	padding-bottom: 20px;
+    animation: search_domain_logo 1s ease-out;
 }
 .search-domain_logo p,
 .our_logo p{
@@ -209,54 +220,60 @@ header{
 	padding-bottom: 20px;
 }
 /*yellow block*/
-.what-is-hot{
-	flex-grow: 5;
-	width: 120px;
-}
-.get-up-to-wrap{
-	background-color: #fff;
-	width: 80%;
-	padding: 4px 4px 4px 4px;
-}
-.get-up-to{
-	border: solid 2px #fffbde;
-	background-color: #fff;
-	text-transform: uppercase;
-	padding-left: 5px;
-}
-.get-up-to>p{
-	font-size: 14px;
-	font-family: 'OpenSans-Ext-Bold';
-}
-.our-features{
-	flex-grow: 8;
-	width: 120px;
-}
-.our-list{
-	font-size: 13.5px;
-	padding-right: 35px;
-}
-.our-list li{
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.view-all-btn{
-	flex-grow: 1;
-	width: 120px;
+.label{
 	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-}
-.view-all{
-	width: 120px;
-	height: 55px;
-	text-transform: uppercase;
-	text-align: center;
-	color: #fff;
-	background-color: var(--buttons-color);
-	font-size: 13.5px;
 	align-items: center;
 	justify-content: center;
+	background-color: #fff;
+	margin-left: 30px;
+    max-width: 330px;
+}
+.label-sale{
 	display: flex;
+	flex-direction: column;
+	margin: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
+	border: 2px solid #fffbde;
+}
+.s50, .off{
+	display: block;
+	font-size: 48px;
+	padding-right: 20px;
+}
+.s50{
+	color: var(--buttons-color);
+}
+.off{
+	color: var(--hover-buttons-color);
+}
+.each-hosting{
+	display: block;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.features-list{
+	display: flex;
+	width: 85%;
+	align-items: flex-start;
+}
+.features-list ul{
+	padding-left: 30px;
+}
+.features-list ul li{
+	padding-bottom: 10px;
+}
+.view-all{
+	background-color: var(--buttons-color);
+	color: #fff;
 	font-family: 'OpenSans-Bold';
+	font-size: 13.5px;
+	margin-left: 50px;
+	line-height: 55px;
+	text-align: center;
+	text-transform: uppercase;
+	align-self: flex-end;
+	width: 20%;
+	min-width: 16%;
+    max-height: 55px;
 }
