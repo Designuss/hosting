@@ -28,6 +28,7 @@ header{
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 100px;
+	padding-top: 70px;
 }
 .row{
 	display: flex;
@@ -115,8 +116,7 @@ header{
 	animation: search_domain_wrap 1s ease-out;
 }
 /*logo*/
-.search-domain_logo,
-.our_logo{
+.search-domain_logo{
 	width: 20%;
 	padding-left: 30px;
 	animation: search_domain_logo 1s ease-out;	
@@ -145,7 +145,6 @@ header{
 	border-radius: 2px;
 	display: block;
     box-shadow: inset 25px 0px 0px 0px #ff8261;
-	margin-top: 71px;
 	margin-bottom: 5px;
 	animation: benefits_logo_span 0.8s ease-out;
 }
@@ -185,11 +184,8 @@ header{
 }
 /*search form end*/
 /*content start*/
-.col-3x{
-	width: 33.33%;
-	display: flex;
-}
 .benefits_content{
+	display: flex;
 	padding-top: 40px;
 	padding-left: 35px;
 }
@@ -212,13 +208,55 @@ header{
 	color: #556b72;
 	padding-bottom: 20px;
 }
+/*yellow block*/
 .what-is-hot{
-	display: flex;
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 100px;
+	flex-grow: 5;
+	width: 120px;
 }
-.what-is-hot div{
+.get-up-to-wrap{
+	background-color: #fff;
+	width: 80%;
+	padding: 4px 4px 4px 4px;
+}
+.get-up-to{
+	border: solid 2px #fffbde;
+	background-color: #fff;
+	text-transform: uppercase;
+	padding-left: 5px;
+}
+.get-up-to>p{
+	font-size: 14px;
+	font-family: 'OpenSans-Ext-Bold';
+}
+.our-features{
+	flex-grow: 8;
+	width: 120px;
+}
+.our-list{
+	font-size: 13.5px;
+	padding-right: 35px;
+}
+.our-list li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.view-all-btn{
 	flex-grow: 1;
 	width: 120px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.view-all{
+	width: 120px;
+	height: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	background-color: var(--buttons-color);
+	font-size: 13.5px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: 'OpenSans-Bold';
 }
